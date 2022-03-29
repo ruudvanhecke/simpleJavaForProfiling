@@ -22,7 +22,6 @@ public class RandomNumbers {
         for (int i = 0; i < length; i++) {
             numbers.add((int) (Math.random() * 100));
         }
-        System.out.println("new array: "+ numbers);
         return numbers;
     }
 
